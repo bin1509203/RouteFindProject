@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './Header';
+import Content from './Content';
  
 class App extends React.Component {
     render(){
@@ -10,24 +12,5 @@ class App extends React.Component {
         );
     }
 }
-
-class Header extends React.Component {
-    render(){
-        return (
-            <h1>Header</h1>
-        );
-    }
-}
  
-class Content extends React.Component {
-    render(){
-        return (
-            <div>
-                <h2>Content</h2>
-                <p> Hey! </p>
-            </div>
-        );
-    }
-}
-
 export default App;
